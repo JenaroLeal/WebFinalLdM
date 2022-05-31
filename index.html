@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deni Petkova</title>
+</head>
+<style>
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #3c504c;
+    }
+    .p{
+        text-align: justify;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #3c504c;
+        margin: auto;
+        height: fit-content;
+        font-size: 15px;
+        line-height: 200%;
+    }
+
+    .toplogo {
+
+        justify-content: center;
+        display: flex;
+    }
+
+    .logoinicio {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    .logoinicio:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+
+    }
+    .cabecera{
+        display: flex;
+        background-image:url('burbujas.png');
+        background-size: 100%;
+        margin-top: 3%;
+        
+         
+    }
+
+    h2 {
+        color: #3c504c;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        width: 100%;
+        margin:2%;
+        word-spacing: 20px;
+        
+        
+
+    }
+
+    h4 {
+        color: #3c504c;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+        width: 100%;
+        height: 80px;
+        margin: auto;
+
+    }
+
+    .videos {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .imagenV1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagenV2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagenV3 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .imagenV4 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .deni:hover{
+       -webkit-transform:scale(1.1);transform:scale(1.1);
+  
+    }
+    .parte1{
+        display: flex;
+        justify-content: space-around;
+        margin: 15px;
+    }
+    .parteP{
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: floralwhite;
+    }
+    #fortuny{
+        background-image:url('fortunyfondo.png'); 
+    }
+    #chara{
+        background-image: url('charafondo.png');
+    }
+    #fondoDp{
+        background-image: url('pc.png');
+    }
+    .i{
+        width: 30%;
+        height: 30%;
+        
+        transition: transform .2s;
+    }
+    .ichara{
+        width: 30%;
+        height: 30%;
+    }
+    .ip1{
+        width: 40%;
+        height: 40%;
+        padding:3%;
+    }
+    .ip1:hover{
+        filter: saturate(180%);
+    }
+    .i:hover{
+        transform: scale(1.1);
+        
+    }
+    .ichara:hover{
+        -webkit-transform: rotate(360deg);transform: rotate(360deg);
+    }
+    .idp{
+        width: 20%;
+        height: 20%;
+        padding:3%;
+        transition: transform .2s;
+    }
+    .idp2{
+        width: 20%;
+        height: 20%;
+        padding:3%;
+    }
+    .idp:hover{
+        transform: scale(1.1);
+    }
+    .modal-contenido {
+            background: linear-gradient(to right, rgb(221, 94, 137), rgb(247, 187, 151));
+            width: 300px;
+            padding: 10px 20px;
+            margin: 20% auto;
+            position:relative;
+            display: flex;
+        }
+
+        .modal {
+            background-color: rgba(0, 0, 0.8);
+            position: fixed;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 1s;
+        }
+        #ventanaModal:target {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .video{
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            display: flex;
+        }
+       
+</style>
+
+<body>
+    <audio controls>
+        <source src="Transformers.mp3" type="audio/mp3">
+        
+    </audio>
+    <div class="toplogo">
+        <image class="logoinicio" src="logofinal.png">
+
+    </div>
+    <div class="cabecera">
+    <h2> <a href =#deni>DENI </a></h2>
+    <h2><a href=#dphome>DPHOME</a></h2>
+    <h2><a href=#proyectos>PROYECTOS</a></h2>
+    <h2><a href=#blog>BLOG</a></h2>
+    <h2><a href=#contacto>CONTACTO</a></h2>
+    </div>
+    <h2> VIDEOS</h2>
+
+    <div class="videos">
+        <a href="https://www.youtube.com/watch?v=UYonjg4-ouY&ab_channel=DeniPetkovaHome"><image class="imagenV1" src="imagenvideo1.png"></a>
+        <a href="https://www.youtube.com/watch?v=S6dNgiBMAcY&ab_channel=DeniPetkovaHome"><image class="imagenV2" src="imgenvideo2.png"></a>
+        <a href="https://www.youtube.com/watch?v=sHSTLDBqcCo&t=16s&ab_channel=DeniPetkovaHome"><image class="imagenV3" src="imagenvideo3.png"></a>
+        <a href="https://www.youtube.com/watch?v=dMDkcVJUCxs&ab_channel=DeniPetkovaHome" ><image class="imagenV4" src="imagenvideo4.png" ></a>
+    </div>
+
+
+    <h2><a href="https://www.instagram.com/denipetkovahome/?hl=es"> INSTAGRAM </a></h2>
+    <video class="video" src="video.mp4" controls>
+        
+      </video>
+    
+    <h2 class="deni" id="deni"> DENI</h2>
+    <div class="parte1">
+        <p class="p">En un lugar muy lejos de La Mancha, de cuyo nombre me acuerdo perfectamente, no ha mucho tiempo nació Deni, una chica libre, creadora y soñadora. Su principal objetivo en la vida era ser feliz y repartir felicidad. ¡Bienvenido a DeniPetkova.com!
+        </p>
+        <image class="i" src="imagenvideo1.png"></image>
+    </div>
+    <div class="parte1">
+        <image class="i" src="imagenvideo1.png"></image>
+        <p class="p">Soy Deni, filóloga, creadora de contenido, Copywriter y Community Manager. Este espacio está creado para darte una idea de mis aventuras diarias en el mundo creativo y, también, es una forma de compartir mis pensamientos y algunas de mis pasiones en la vida: diseño de interiores y decoración, moda, viajes y estilo de vida.
+        </p>   
+    </div>
+    <div class="parte1">
+        <p class="p">Mis aventuras profesionales empezaron en la Universidad de Sofía, Bulgaria donde estudié Filología Española, época en la que me enamoré de la literatura. Desde entonces, he estado trabajando en perfeccionar mis habilidades y conocimientos como creadora de contenido. Hoy, con mucho gusto y pasión me dedico a la creación de contenido en el sector inmobiliario y desarrollo mi marca personal en Deni Petkova Home desde 2020. Un proyecto que me inspira a diario. Mi mayor secreto y sueño para el futuro es escribir un libro.
+        </p>   
+        <image class="i" src="imagenvideo1.png"></image>
+    </div>
+    <h2 class="deni" id="dphome"> DPHOME</h2>
+    <div class="parte1" id="fondoDp">
+        <p class="p">Deni Petkova Home es mi proyecto profesional. Nació a principios de 2020, en tiempos de una Pandemia mundial como una manera de escapar de la realidad y evadirme de las malas noticias que recorrían el mundo. En vez de empaparme con noticias poco agradables, elegí crear este espacio online donde empaparme de inspiración, imágenes y copys creados con mucha pasión y ganas. Deni Petkova Home es mi marca personal con perfiles en algunas de las redes sociales más populares del momento: Instagram, TikTok y YouTube.</p>
+        <image class="idp" src="ImagenDPHome1.png"></image>
+    </div>
+    <div class="parte1">
+        <image class="idp2" src="ImagenDPHome2.JPEG"></image>
+        <p class="p">Es una cuenta de inspiración de diseño de interiores, decoración de interiores, trucos y tips para el hogar. Pretendo demostrar que aunque nuestras casas no son perfectas, son nuestros hogares y nuestros refugios. Allí comparto mi experiencia, mis deseos y logros con los más de diez mil seguidores en total. Estaré eternamente agradecida a todos que me apoyan y que siguen mi trabajo desde el principio.</p>   
+    </div>
+    
+    <h2 class="deni" id="proyectos"> PROYECTOS</h2>
+    <div class="parteP" id="fortuny">
+        
+        <p class="p">La amplia trayectoria de <a href="https://fortunyhogaresunicos.com/">Fortuny Hogares Únicos</a> de más de quince años en la intermediación inmobiliaria y los continuos cambios que ha sufrido el sector en estos tiempos han ayudado a afianzar los valores fundamentales de la empresa. Entre ellos la confianza, compromiso, respecto, integridad y profesionalidad. La agencia inmobiliaria se especializa en la venta y alquiler de propiedades y promociones en las zonas más demandadas de Málaga, así como inmuebles exclusivos en la Costa del Sol ( Marbella, Sotogrande, Estepona, Benalmádena, Fuengirola, Torremolinos...) sin olvidar las fincas, en las que la naturaleza y el descanso son protagonistas, ¿cómo no intermediar donde nos inspiramos? Formo parte del equipo de esta maravillosa empresa desde inicios de 2022 y soy la responsable de Marketing y Publicidad, programando y creando el contenido para todos los canales en línea de la agencia. Mi trabajo se centra en mostrar lo mejor de cada propiedad inmobiliaria y de crear interés en los futuros propietarios de cada inmueble.</p>
+        <image class="ip1" src="ImagenProyectos1.png"></image>
+    </div>
+    <div class="parteP" id="chara">
+        <image class="ichara" src="ImagenProyectos2.png"></image>
+        
+        <p class="p"><a href="https://characastro.com/">Chara Castro</a> es la empresa más loca que he conocido. Tengo el honor de ser la creadora de contenido para el Blog de esta tan especial tienda online. Su principal objetivo es mostrar a su comunidad que cada uno de nosotros puede ser tan diferente, como perfecto gracias a sus calcetines. Los calcetines más locos que jamás olvidarás. En el blog tratamos temas igual de interesantes como útiles. Entre los temas más curiosos son el cuidado de  los pies, tendencias y trucos de moda. 
+        
+        </p>
+         
+    </div>
+    
+    <h2 class="deni" id="blog"> BLOG</h2>
+    <div class="parte1">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vero iusto sed illo accusantium, sint voluptatibus impedit harum atque dolores enim nulla dolorum suscipit veritatis. Vero optio eligendi natus dolorum.</p>
+        <image class="i" src="imagenvideo1.png"></image>
+    </div>
+    <div class="parte1">
+        <image class="i" src="imagenvideo1.png"></image>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure est qui? Rerum repellat distinctio provident ea vitae praesentium accusamus suscipit quo! Vel deleniti quod porro, asperiores soluta maiores eos.</p>   
+    </div>
+    <div class="parte1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique iure est qui? Rerum repellat distinctio provident ea vitae praesentium accusamus suscipit quo! Vel deleniti quod porro, asperiores soluta maiores eos.</p>   
+        <image class="i" src="imagenvideo1.png"></image>
+    </div>
+    <h4><a href="#ventanaModal" id="contacto">CONTACTO</a></h4>
+    <div id="ventanaModal" class="modal">
+        <div class="modal-contenido">
+            <a href="#">(X)</a>
+            <h4>deni.petkova92@gmail.com</h4>
+            
+        </div>
+    </div>
+</body>
+
+</html>
